@@ -1,6 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const logger = require("morgan");
+const path = require("path")
 
 const app = express();
 
@@ -23,8 +24,8 @@ app.get("/", (req, res) => {
 });
 
 app.get("/exercise", (req, res) => {
-    res.send(exercise.html);
-    // res.sendFile(path.join(_dirname, "exercise.html"))
+    // res.send(exercise.html);
+    res.sendFile(path.join(__dirname, "public/exercise.html"))
 });
 
 // Routes
