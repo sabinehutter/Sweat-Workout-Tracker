@@ -29,3 +29,12 @@ router.get("/api/workouts", (req, res) => {
         res.json(err);
     });
 });
+
+router.get("/api/workouts/range", (req,res) => {
+    Workout.find({}).limit(7).then( dbWorkout => {
+        console.log(dbWorkout)
+        res.json(dbWorkout);
+    }).catch (err => {
+        res.json(err);
+    })
+})
