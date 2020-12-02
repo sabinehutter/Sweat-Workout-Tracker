@@ -21,3 +21,11 @@ router.put("api/workouts/:id", ({ body, params }, res) => {
         res.json(err);
     });
 });
+
+router.get("/api/workouts", (req, res) => {
+    Workout.find().then(dbWorkout => {
+        res.json(dbWorkout);
+    }).catch(err => {
+        res.json(err);
+    });
+});
