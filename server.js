@@ -5,11 +5,11 @@ const path = require("path")
 
 const app = express();
 
+const PORT = 3000;
+
 app.use(logger("dev"));
 
-app.use(express.urlencoded({
-    extended: true
-}));
+app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 
 app.use(express.static("public"));
@@ -17,20 +17,11 @@ app.use(express.static("public"));
 const databaseUrl = "workouts_db";
 const collections = ["workouts"];
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/custommethoddb", { useNewUrlParser: true });
-
-app.get("/", (req, res) => {
-    res.send(index.html);
-});
-
-app.get("/exercise", (req, res) => {
-    // res.send(exercise.html);
-    res.sendFile(path.join(__dirname, "public/exercise.html"))
-});
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", { useNewUrlParser: true , useFindAndModify : false});
 
 // Routes
-// GET api/workouts
-// GET /exercise
+app.use(require("./routes/api"))
+app.use(require("./routes/view"))
 
 
 app.listen(3000, () => {
