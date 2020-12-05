@@ -36,6 +36,6 @@ app.use(require("./routes/api"))
 app.use(require("./routes/view"))
 
 
-app.listen(process.env.PORT || 3000, () => {
+app.listen(process.env.PORT || 4000, () => {
     console.log("app is listening");
   })
