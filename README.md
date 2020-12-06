@@ -58,15 +58,15 @@
 
   ## Usage
   This project uses the following frameworks, and packages : 
-    - mongoosee
-    - express
-    - mongodb
-    - mongjs
-    - morgan
-    - javascript
-    - charts.js
-    - html
-    - css 
+    * mongoosee
+    * express
+    * mongodb
+    * mongjs
+    * morgan
+    * javascript
+    * charts.js
+    * html
+    * css 
 
   ## License
   MIT
