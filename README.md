@@ -58,25 +58,14 @@
 
   ## Usage
   This project uses the following frameworks, and packages : 
-  
-   * [Installation](#installation)
-   * [Usage](#usage)
-   * [License](#license)
-   * [Contributions](#contributing)
-  * [Badges](#badges)
-  * [Tests](#tests)
-  * [Questions](#questions)
-  
-    * [Mongoose](#mongoose)
-    * [express.js](#express.js)
-    * express
-    * mongodb
-    * mongjs
-    * morgan
-    * javascript
-    * charts.js
-    * html
-    * css 
+  * express
+  * mongodb
+  * mongjs
+  * morgan
+  * javascript
+  * charts.js
+  * html
+  * css 
 
   ## License
   MIT
