@@ -57,7 +57,16 @@
     $ npm run start
 
   ## Usage
-    This project uses Javascript, HTML, CSS, and the following npm packages : express, express-handlebars, mysql, mysql2, sequelizer
+  This project uses the following frameworks, and packages : 
+    - mongoosee
+    - express
+    - mongodb
+    - mongjs
+    - morgan
+    - javascript
+    - charts.js
+    - html
+    - css 
 
   ## License
   MIT
