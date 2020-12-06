@@ -58,7 +58,8 @@
 
   ## Usage
   This project uses the following frameworks, and packages : 
-    * mongoosee
+    * [Mongoose](#mongoose)
+    * [express.js](#express.js)
     * express
     * mongodb
     * mongjs
