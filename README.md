@@ -38,7 +38,19 @@
   * [Questions](#questions)
 
   ## Installation
-    Navigate to the working directoory and run npm install and run 'node server.js' to begin running the application. The application will then open on your terminal. 
+  To run locally, use the commands below:
+
+    $ npm i followed by:
+
+    $ npm run start
+    
+  Seed the database using : 
+  
+    $ npm run seed
+    
+  Get mongodb database running locally (Run command in another Terminal tab): 
+  
+    $ mongod
 
   ## Usage
     This project uses Javascript, HTML, CSS, and the following npm packages : express, express-handlebars, mysql, mysql2, sequelizer
