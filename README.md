@@ -6,21 +6,21 @@
   ## Description
    This application allows you to automatically track your cardio and resistance workouts!
 
-   ![Application Entry](https://github.com/sabinehutter/Eat-Da-Burger-Application/blob/main/public/assets/burger_intro.png)
+   ![Application Entry](https://github.com/sabinehutter/Sweat-Workout-Tracker/blob/main/public/images/Sweat-Landing.png)
    
    Time to get in shape!!
 
-   Whene you firstt launch the application you will be prompted to enter a "New Workout"
+   Whene you first launch the application you will be prompted to enter a "New Workout"
    
-   ![New Workout](https://github.com/sabinehutter/Eat-Da-Burger-Application/blob/main/public/assets/burger_intro.png)
+   ![New Workout](https://github.com/sabinehutter/Sweat-Workout-Tracker/blob/main/public/images/Sweat-New-Exercise.png)
 
    You can track your workouts through the "Dashborad" tab, which can be accessed by clicking the "Dashboard" text at the top left hand corner. 
    
-   ![Workout Metric Tracking](https://github.com/sabinehutter/Eat-Da-Burger-Application/blob/main/public/assets/burger_intro.png)
+   ![Workout Metric Tracking](https://github.com/sabinehutter/Sweat-Workout-Tracker/blob/main/public/images/Sweat-Metrics.png)
 
    As you track additional workouts,the landing page with update aggregating all your current stats from the active workout.
 
-   ![Workout Summary](https://github.com/sabinehutter/Eat-Da-Burger-Application/blob/main/public/assets/burger_intro.png)
+   ![Workout Summary](https://github.com/sabinehutter/Sweat-Workout-Tracker/blob/main/public/images/Sweat-Workout-Summary.png)
     
   ## Hosted Application
   
