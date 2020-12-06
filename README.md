@@ -39,18 +39,22 @@
 
   ## Installation
   To run locally, use the commands below:
+  
+  Installing all the packages the application uses :
 
-    $ npm i followed by:
-
-    $ npm run start
+    $ npm i
     
   Seed the database using : 
   
     $ npm run seed
     
-  Get mongodb database running locally (Run command in another Terminal tab): 
+  Get mongodb database running locally (Run command in another Terminal tab) : 
   
     $ mongod
+    
+  To start the application :
+  
+    $ npm run start
 
   ## Usage
     This project uses Javascript, HTML, CSS, and the following npm packages : express, express-handlebars, mysql, mysql2, sequelizer
