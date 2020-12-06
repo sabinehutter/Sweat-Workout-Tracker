@@ -1,21 +1,30 @@
-# Sweat Worrkout Application
+# Sweat Workout Application
   ![badmath](https://img.shields.io/badge/license-MIT-green)
 
   # Welcome to Sweat!  
 
   ## Description
-   This application allows you to automatically track burgers you ate and did not eat. 
-   
-   When the application begins it will appear in your terminal as the photo below. 
-   
-   ![Application Entry](https://github.com/sabinehutter/Eat-Da-Burger-Application/blob/main/public/assets/burger_intro.png)
+   This application allows you to automatically track your cardio and resistance workouts!
 
-   This application prompts you to enter additional burgers and decide whether to eat them or not!
+   ![Application Entry](https://github.com/sabinehutter/Eat-Da-Burger-Application/blob/main/public/assets/burger_intro.png)
    
+   Time to get in shape!!
+
+   Whene you firstt launch the application you will be prompted to enter a "New Workout"
+   
+   ![New Workout](https://github.com/sabinehutter/Eat-Da-Burger-Application/blob/main/public/assets/burger_intro.png)
+
+   You can track your workouts through the "Dashborad" tab, which can be accessed by clicking the "Dashboard" text at the top left hand corner. 
+   
+   ![Workout Metric Tracking](https://github.com/sabinehutter/Eat-Da-Burger-Application/blob/main/public/assets/burger_intro.png)
+
+   As you track additional workouts,the landing page with update aggregating all your current stats from the active workout.
+
+   ![Workout Summary](https://github.com/sabinehutter/Eat-Da-Burger-Application/blob/main/public/assets/burger_intro.png)
     
   ## Hosted Application
   
-   The application is hosted on Heroku and can be found here https://burgertracker123.herokuapp.com/burgers
+   The application is hosted on Heroku and can be found here https://sweat-workout.herokuapp.com/
     
   ## Table of Contents
   Navigate through the README Using the Table of Contents : 
